@@ -1,0 +1,86 @@
+.sobremi{
+    padding: 40px 0;
+    .title__servicios{
+        color: #fff;
+        height: 45px;
+        text-align: center;
+        font-size: 40px;
+        padding: 45px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $basefont;
+    }
+    .contenedor{
+        width: 90%;
+        max-width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        .modelo__caja{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .titulos{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 30px;
+                p{
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 30px;
+                    
+                }
+
+            }
+            .imagen__principal{
+                width: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 100%;
+                }
+                h2{
+                    font-size: 25px;
+                    font-family: $altfont;
+                    color: #fff;
+                }
+                h4{
+                    font-size: 22px;
+                    font-family: $altfont;
+                    color: #fff;
+                }
+            }
+        }
+    }   
+}
+@media (max-width: 768px){
+    .sobremi{
+        .contenedor{
+            .modelo__caja{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                .titulos{
+                    width: auto;
+                }
+                .imagen__principal{
+                    width: auto;
+                    img{
+                        border-radius: 50%;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+    
+}

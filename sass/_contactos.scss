@@ -1,0 +1,59 @@
+.footer{
+    padding: 40px 0;
+
+    .title__footer{
+        color: #fff;
+        height: 45px;
+        text-align: center;
+        font-size: 40px;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $basefont;
+    }
+    .contenedor{
+        width: 90%;
+        max-width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        .contec__footer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            .caja__footer{
+                width: 260px;
+                height: 120px;
+                background: #fff;
+                margin: 10px 10px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .icon-fab{
+                    font-size: 48px;
+                    display: inline;
+                    color: rgba(209, 209, 209, 0.733);
+                }
+                .text-fab{
+                    font-size: 35px;
+                    display: inline;
+                    font-family: $altfont;
+                    font-weight: 200;
+                    text-decoration: none;
+                    color: #5433FF;;
+                }
+            }
+        }
+        .info__footer{
+            font-family: $altfont;
+            text-align: center;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            
+        } 
+    }  
+}

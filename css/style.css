@@ -1,0 +1,386 @@
+.sobremi {
+  padding: 40px 0; }
+  .sobremi .title__servicios {
+    color: #fff;
+    height: 45px;
+    text-align: center;
+    font-size: 40px;
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trocchi"; }
+  .sobremi .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto; }
+    .sobremi .contenedor .modelo__caja {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      .sobremi .contenedor .modelo__caja .titulos {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px; }
+        .sobremi .contenedor .modelo__caja .titulos p {
+          color: #fff;
+          font-size: 16px;
+          line-height: 30px; }
+      .sobremi .contenedor .modelo__caja .imagen__principal {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .sobremi .contenedor .modelo__caja .imagen__principal img {
+          width: 100%; }
+        .sobremi .contenedor .modelo__caja .imagen__principal h2 {
+          font-size: 25px;
+          font-family: "Poppins";
+          color: #fff; }
+        .sobremi .contenedor .modelo__caja .imagen__principal h4 {
+          font-size: 22px;
+          font-family: "Poppins";
+          color: #fff; }
+
+@media (max-width: 768px) {
+  .sobremi .contenedor .modelo__caja {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; }
+    .sobremi .contenedor .modelo__caja .titulos {
+      width: auto; }
+    .sobremi .contenedor .modelo__caja .imagen__principal {
+      width: auto; }
+      .sobremi .contenedor .modelo__caja .imagen__principal img {
+        border-radius: 50%;
+        width: 60%; } }
+
+.servicios {
+  padding: 40px 0; }
+  .servicios .title__servicios {
+    color: #fff;
+    height: 45px;
+    text-align: center;
+    font-size: 40px;
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trocchi"; }
+  .servicios .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden; }
+    .servicios .contenedor .contenedor__servicios {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow: hidden; }
+      .servicios .contenedor .contenedor__servicios .caja__servicios {
+        width: 280px;
+        height: 300px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px; }
+        .servicios .contenedor .contenedor__servicios .caja__servicios .fab {
+          font-size: 55px; }
+        .servicios .contenedor .contenedor__servicios .caja__servicios .title__descricion {
+          font-size: 30px;
+          padding: 10px 0;
+          font-family: "Trocchi"; }
+        .servicios .contenedor .contenedor__servicios .caja__servicios p {
+          margin: 10px;
+          font-family: "Poppins";
+          font-size: 14px; }
+
+.contenedor__trabajo {
+  padding: 40px 0; }
+  .contenedor__trabajo .title__trabajo {
+    color: #fff;
+    height: 45px;
+    text-align: center;
+    font-size: 40px;
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trocchi"; }
+  .contenedor__trabajo .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto; }
+    .contenedor__trabajo .contenedor .contec__trabajo {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo {
+        position: relative;
+        width: 340px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 15px;
+        background-color: #fff;
+        overflow: hidden; }
+        .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo figure {
+          width: 340px;
+          height: 180px;
+          position: absolute;
+          overflow: hidden;
+          top: 10px; }
+          .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo figure img {
+            width: 100%; }
+        .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo h3 {
+          color: #000;
+          font-family: "Trocchi";
+          position: absolute;
+          top: 200px;
+          left: 15px; }
+        .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo p {
+          color: #000;
+          font-family: "Poppins";
+          font-size: 14px;
+          position: absolute;
+          bottom: 100px;
+          left: 15px; }
+        .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo .iconos__trabajos {
+          position: absolute;
+          width: 340px;
+          height: 70px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 70px;
+          top: 320px; }
+          .contenedor__trabajo .contenedor .contec__trabajo .caja__trabajo .iconos__trabajos .fab {
+            font-size: 55px; }
+
+.footer {
+  padding: 40px 0; }
+  .footer .title__footer {
+    color: #fff;
+    height: 45px;
+    text-align: center;
+    font-size: 40px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trocchi"; }
+  .footer .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto; }
+    .footer .contenedor .contec__footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .footer .contenedor .contec__footer .caja__footer {
+        width: 260px;
+        height: 120px;
+        background: #fff;
+        margin: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        .footer .contenedor .contec__footer .caja__footer .icon-fab {
+          font-size: 48px;
+          display: inline;
+          color: rgba(209, 209, 209, 0.733); }
+        .footer .contenedor .contec__footer .caja__footer .text-fab {
+          font-size: 35px;
+          display: inline;
+          font-family: "Poppins";
+          font-weight: 200;
+          text-decoration: none;
+          color: #5433FF; }
+    .footer .contenedor .info__footer {
+      font-family: "Poppins";
+      text-align: center;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #5433FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Trocchi', 'Poppins', sans-serif; }
+
+.contenedor__header {
+  width: 100%;
+  z-index: 99;
+  background: #1488CC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2b32b257, #1489cc3d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2b32b24d, #1489cc3a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .contenedor__header .header {
+    width: 100%;
+    max-width: 1200px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; }
+    .contenedor__header .header .logo__menu {
+      width: 100px;
+      height: 100px;
+      padding: 5px 0; }
+      .contenedor__header .header .logo__menu .logo {
+        width: 100%; }
+    .contenedor__header .header .navbar__menu .navbar__link {
+      text-decoration: none;
+      color: #fff;
+      padding: 0 25px;
+      height: 40px;
+      font-weight: 300;
+      font-family: "Poppins";
+      letter-spacing: 4px; }
+      .contenedor__header .header .navbar__menu .navbar__link:hover {
+        color: black; }
+
+.section__principal {
+  padding: 40px 0; }
+  .section__principal .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto; }
+    .section__principal .contenedor .modelo__caja {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%; }
+      .section__principal .contenedor .modelo__caja .titulos {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .section__principal .contenedor .modelo__caja .titulos h1 {
+          color: #fff;
+          font-size: 75px;
+          line-height: 80px; }
+        .section__principal .contenedor .modelo__caja .titulos h3 {
+          color: #fff;
+          font-size: 22px;
+          margin-bottom: 20px;
+          padding: 20px 0;
+          font-family: "Poppins"; }
+        .section__principal .contenedor .modelo__caja .titulos .contacto {
+          text-decoration: none;
+          text-transform: uppercase;
+          padding: 15px 30px;
+          background-color: #3c096c;
+          border-radius: 50px;
+          color: #fff;
+          margin-right: auto;
+          border: 2px solid #fff;
+          font-family: "Poppins"; }
+        .section__principal .contenedor .modelo__caja .titulos .contacto:hover {
+          color: #3c096c;
+          background-color: #fff;
+          border: 2px solid #3c096c;
+          transition: 1s;
+          font-family: "Poppins"; }
+      .section__principal .contenedor .modelo__caja .imagen__principal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .section__principal .contenedor .modelo__caja .imagen__principal img {
+          width: 100%; }
+
+@media (max-width: 800px) {
+  .contenedor__header .header .logo__menu {
+    opacity: 0; }
+  .section__principal .contenedor {
+    width: 90%;
+    max-width: 85%;
+    margin: auto; }
+    .section__principal .contenedor .modelo__caja {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%; }
+      .section__principal .contenedor .modelo__caja .titulos {
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-self: flex-start; }
+        .section__principal .contenedor .modelo__caja .titulos h1 {
+          font-size: 40px;
+          text-align: left;
+          line-height: 50px; }
+        .section__principal .contenedor .modelo__caja .titulos h3 {
+          text-align: left;
+          font-size: 18px; }
+      .section__principal .contenedor .modelo__caja .imagen__principal {
+        width: 80%; } }
+
+@media (max-width: 500px) {
+  .contenedor__header .header {
+    display: flex;
+    justify-content: center; }
+    .contenedor__header .header .logo__menu {
+      opacity: 1; }
+    .contenedor__header .header .navbar__menu {
+      display: none; }
+  .section__principal {
+    padding: 40px 0; }
+    .section__principal .contenedor {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto; }
+      .section__principal .contenedor .modelo__caja {
+        display: flex;
+        flex-direction: column; }
+        .section__principal .contenedor .modelo__caja .titulos {
+          width: 90%;
+          display: flex;
+          flex-direction: column; }
+          .section__principal .contenedor .modelo__caja .titulos h1 {
+            font-size: 40px;
+            text-align: left;
+            line-height: 3rem; }
+          .section__principal .contenedor .modelo__caja .titulos h3 {
+            font-size: 16px;
+            text-align: left; }
+          .section__principal .contenedor .modelo__caja .titulos .contacto {
+            text-align: left; }
+        .section__principal .contenedor .modelo__caja .imagen__principal {
+          width: 100%;
+          padding: 30px 0; }
+          .section__principal .contenedor .modelo__caja .imagen__principal img {
+            width: 100%; } }

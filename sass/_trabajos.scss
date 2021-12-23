@@ -1,0 +1,75 @@
+// contenedor trabajos
+.contenedor__trabajo{
+    padding: 40px 0;
+    .title__trabajo{
+        color: #fff;
+        height: 45px;
+        text-align: center;
+        font-size: 40px;
+        padding: 45px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $basefont;
+    }
+    .contenedor{
+        width: 90%;
+        max-width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        .contec__trabajo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .caja__trabajo{
+                position: relative;
+                width: 340px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                margin: 15px 15px;
+                background-color: #fff;
+                overflow: hidden;
+                figure{
+                    width: 340px;
+                    height: 180px;
+                    position: absolute;
+                    overflow: hidden;
+                    top: 10px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                h3{
+                    color: #000;
+                    font-family: $basefont;
+                    position: absolute;
+                    top: 200px;
+                    left: 15px;
+                }
+                p{
+                    color: #000;
+                    font-family: $altfont;
+                    font-size: 14px;
+                    position: absolute;
+                    bottom: 100px;
+                    left: 15px;
+                }
+                .iconos__trabajos{
+                    position: absolute;
+                    width: 340px;
+                    height: 70px;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    justify-content: space-evenly;
+                    padding-bottom: 70px;
+                    top: 320px;
+                    .fab {
+                        font-size: 55px;
+                    }
+                }
+            }
+        }
+}
+}

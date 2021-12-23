@@ -1,0 +1,54 @@
+.servicios{
+    padding: 40px 0;
+    .title__servicios{
+        color: #fff;
+        height: 45px;
+        text-align: center;
+        font-size: 40px;
+        padding: 45px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $basefont;
+    }
+    .contenedor{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        .contenedor__servicios{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow: hidden;
+
+            .caja__servicios{
+                width: 280px;
+                height: 300px;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 10px;
+
+                .fab{
+                    font-size: 55px;
+                }
+                .title__descricion{
+                    font-size: 30px;
+                    padding: 10px 0;
+                    font-family: $basefont;
+                }
+                p{
+                    margin: 10px;
+                    font-family: $altfont;
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+
+}
